@@ -16,6 +16,12 @@ cd deployments/
 ./deploy-all.sh
 ```
 
+To stop all the challenges at once after finishing:
+```sh
+cd deployments/
+./stop-all.sh
+```
+
 Visit [http://127.0.0.1:48334/](http://127.0.0.1:48334/) in your browser. (Tip: The backend might take a few extra seconds to spin up.)
 
 ![Web Interface](image.png)
